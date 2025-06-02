@@ -1,0 +1,7 @@
+setup:
+  install: |
+    pip install -r requirements.txt
+
+test:
+  run: |
+    pytest -q
